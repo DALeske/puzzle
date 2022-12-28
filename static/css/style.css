@@ -1,0 +1,9 @@
+body {
+
+    color: #f7f7f7;
+  }
+  .jumbotron {
+    background-image: url("../images/puzzle_header.jpg");
+    background-size: 100% 200%;
+    text-align: center;
+  }

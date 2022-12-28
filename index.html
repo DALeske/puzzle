@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leske Puzzle Collection</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body class="bg-dark">
+    <divclass="wrapper">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+            <a class = "navbar-brand" href="index.html">Puzzles</a>
+        </nav>
+        <div class="jumbotron">
+            <h1 class="display-4"> Leske Puzzles!!</h1>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Looking for a Leske Puzzle? </h3>
+                        <medium>Select from the options below</medium>
+                </div>
+                <div class="col-md-8">
+                    <p>If you are looking for a puzzle in the Leske puzzle collection, then you've come to the right place</p>
+                    <p> Other text</p>
+                </div>
+            </div>
+        </div>
+        <! TABLE>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-med-3">
+                    <form class="bg-dark">
+                        <p>Filter Search</p>
+                        <ul class="list-group bg-dark">
+                            <li class="list-group-item bg-dark">
+                                <label for="PuzzleNum">Puzzle Number</label><br/>
+                                <input type="text" placeholder="1" id="PuzzleNum" />
+                            </li>
+                            <li class="list-group-item bg-dark">
+                                <label for="Pieces">Number of pieces</label><br/>
+                                <input type="text" placeholder="500" id="Pieces" />
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+                <div class="col-md-9">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>PuzzleNum</th>
+                                <th>Title</th>
+                                <th>Pieces</th>
+                                <th>Company</th>
+                                <th>Size</th>
+                                <th>URL</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script src="static/js/puz_data.js"></script>
+    <script src="static/js/app.js"></script>
+</body>
+</html>
