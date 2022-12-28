@@ -3,6 +3,11 @@ CREATE TABLE puzzle (
 	Title VARCHAR (255),
 	Pieces INTEGER,
 	Company VARCHAR (255),
-	Size VARCHAR,
+	Puzzle_size VARCHAR,
 	PRIMARY KEY (PuzzleNum)
 )
+
+COPY puzzle(PuzzleNum, Title, Pieces, Company, Puzzle_size)
+FROM 'C:\Misc\Leske_puzzle_list.csv'
+DELIMITER ','
+CSV HEADER;
