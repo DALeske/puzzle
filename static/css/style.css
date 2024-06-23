@@ -2,8 +2,14 @@ body {
 
     color: #f7f7f7;
   }
+  H1 {
+
+    color: rgb(255, 51, 0);
+    font-weight: bold;
+    font-family: sans-serif;
+  }
   .jumbotron {
-    background-image: url("../images/puzzle_header.jpg");
+       background-image: url("../images/puzzle_header.jpg");
     background-size: 100% 200%;
     text-align: center;
   }
